@@ -1,0 +1,116 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" 
+  
+    >
+
+    <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView1" 
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp"
+            android:layout_weight="0.02"
+            android:clickable="true"
+            android:contentDescription="@string/todo"
+            android:onClick="qpsem1"
+            android:src="@drawable/gpa1"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+           android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/todo"
+            android:onClick="qpsem2"
+            android:src="@drawable/gpa2"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+             android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/todo"
+            android:onClick="qpsem3"
+            android:src="@drawable/gpa3"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+           android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/todo"
+            android:onClick="qpsem4"
+            android:src="@drawable/gpa4"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/todo"
+            android:onClick="qpsem5"
+            android:src="@drawable/gpa5"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+             android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/todo"
+            android:onClick="qpsem6"
+            android:src="@drawable/gpa6"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+             android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/todo"
+            android:onClick="qpsem7"
+            android:src="@drawable/gpa7"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <ImageView
+             android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:contentDescription="@string/todo"
+            android:onClick="qpsem8"
+            android:src="@drawable/gpa8"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+    </LinearLayout>
+  
+   </ScrollView>
+    <TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="50dp"
+		    android:layout_gravity="top"
+		    android:gravity="center_horizontal"
+		    android:background="@color/ibg"
+		    android:fontFamily="sans-serif-condensed"
+		    
+		   
+		    android:paddingTop="15dp"
+		    android:text="@string/qptitle"
+		    android:textColor="@color/white"
+		    android:textSize="20sp"
+		    tools:ignore="UnusedAttribute,RtlSymmetry" />
+    
+    
+
+</FrameLayout>

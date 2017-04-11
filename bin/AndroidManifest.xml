@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.peoplesbench.endroidece"
+    android:versionCode="1"
+    android:versionName="1.1.10" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.peoplesbench.endroidece.Splash1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.Results"
+            android:label="@string/title_activity_results" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FirstSemester"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.Splash2"
+            android:label="@string/title_activity_splash2" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SecondSemester"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.ThirdSemester"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.Index"
+            android:label="@string/title_activity_index" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.Cgpa"
+            android:label="@string/title_activity_index" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FourthSemester"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FifthSemester"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SixthSemester"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SeventhSemester"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightSemester"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.Cgparesults"
+            android:label="@string/title_activity_cgparesults" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.Syllabus"
+            android:label="@string/title_activity_syllabus" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.Aboutus"
+            android:label="@string/title_activity_aboutus" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FisrtChemistry"
+            android:label="@string/title_activity_fisrt_chemistry" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.NotesSemesters"
+            android:label="@string/title_activity_notes_semesters" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.NotesSubjects"
+            android:label="@string/title_activity_notes_subjects" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FirstMaths"
+            android:label="@string/title_activity_first_maths" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FirstEg"
+            android:label="@string/title_activity_first_eg" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FirstPhysics"
+            android:label="@string/title_activity_first_physics" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FirstCp"
+            android:label="@string/title_activity_first_cp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FirstEng"
+            android:label="@string/title_activity_first_eng" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSemesters"
+            android:label="@string/title_activity_qp_semesters" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSubjects1"
+            android:label="@string/title_activity_qp_subjects1" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpChem1"
+            android:label="@string/title_activity_qp_chem1" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpM1"
+            android:label="@string/title_activity_qp_m1" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpPhy1"
+            android:label="@string/title_activity_qp_phy1" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEng1"
+            android:label="@string/title_activity_qp_eng1" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpCp"
+            android:label="@string/title_activity_qp_cp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEg"
+            android:label="@string/title_activity_qp_eg" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.NotesSubjects2"
+            android:label="@string/title_activity_notes_subjects2" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SecChemistry"
+            android:label="@string/title_activity_sec_chemistry" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SecMaths2"
+            android:label="@string/title_activity_sec_maths2" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SecPhysics"
+            android:label="@string/title_activity_sec_physics" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SecCt"
+            android:label="@string/title_activity_sec_ct" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SecEng"
+            android:label="@string/title_activity_sec_eng" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SecEd"
+            android:label="@string/title_activity_sec_ed" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.NotesSubjects3"
+            android:label="@string/title_activity_notes_subjects3" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.ThirdEc1"
+            android:label="@string/title_activity_third_ec1" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.ThirdTpde"
+            android:label="@string/title_activity_third_tpde" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.ThirdDe"
+            android:label="@string/title_activity_third_de" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.ThirdSs"
+            android:label="@string/title_activity_third_ss" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.ThirdEei"
+            android:label="@string/title_activity_third_eei" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.ThirdOops"
+            android:label="@string/title_activity_third_oops" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.NotesSubjects4"
+            android:label="@string/title_activity_notes_subjects4" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FourEc2"
+            android:label="@string/title_activity_four_ec2" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FourCt"
+            android:label="@string/title_activity_four_ct" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FourCs"
+            android:label="@string/title_activity_four_cs" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FourEmf"
+            android:label="@string/title_activity_four_emf" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FourLic"
+            android:label="@string/title_activity_four_lic" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FourPrp"
+            android:label="@string/title_activity_four_prp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSubjects2"
+            android:label="@string/title_activity_qp_subjects2" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpChem2"
+            android:label="@string/title_activity_qp_chem2" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpM2"
+            android:label="@string/title_activity_qp_m2" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpPhy2"
+            android:label="@string/title_activity_qp_phy2" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpCt"
+            android:label="@string/title_activity_qp_ct" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEng2"
+            android:label="@string/title_activity_qp_eng2" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEd"
+            android:label="@string/title_activity_qp_ed" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSubjects3"
+            android:label="@string/title_activity_qp_subjects3" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEc1"
+            android:label="@string/title_activity_qp_ec1" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpTpde"
+            android:label="@string/title_activity_qp_tpde" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpDe"
+            android:label="@string/title_activity_qp_de" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSs"
+            android:label="@string/title_activity_qp_ss" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEei"
+            android:label="@string/title_activity_qp_eei" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpOops"
+            android:label="@string/title_activity_qp_oops" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSubjects4"
+            android:label="@string/title_activity_qp_subjects4" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEc2"
+            android:label="@string/title_activity_qp_ec2" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpComt"
+            android:label="@string/title_activity_qp_comt" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpCs"
+            android:label="@string/title_activity_qp_cs" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEmf"
+            android:label="@string/title_activity_qp_emf" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpLic"
+            android:label="@string/title_activity_qp_lic" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpPrp"
+            android:label="@string/title_activity_qp_prp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FifthDc"
+            android:label="@string/title_activity_fifth_dc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.NotesSubjects5"
+            android:label="@string/title_activity_notes_subjects5" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FifthMpmc"
+            android:label="@string/title_activity_fifth_mpmc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FifthEvs"
+            android:label="@string/title_activity_fifth_evs" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FifthTlw"
+            android:label="@string/title_activity_fifth_tlw" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.FifthDsp"
+            android:label="@string/title_activity_fifth_dsp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSubjects5"
+            android:label="@string/title_activity_qp_subjects5" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpDc"
+            android:label="@string/title_activity_qp_dc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpMpmc"
+            android:label="@string/title_activity_qp_mpmc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEvs"
+            android:label="@string/title_activity_qp_evs" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpDsp"
+            android:label="@string/title_activity_qp_dsp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpTlw"
+            android:label="@string/title_activity_qp_tlw" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.NotesSubjects6"
+            android:label="@string/title_activity_notes_subjects6" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSubjects6"
+            android:label="@string/title_activity_qp_subjects6" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.NotesSubjects7"
+            android:label="@string/title_activity_notes_subjects7" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSubjects7"
+            android:label="@string/title_activity_qp_subjects7" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.NotesSubjects8"
+            android:label="@string/title_activity_notes_subjects8" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSubjects8"
+            android:label="@string/title_activity_qp_subjects8" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SixthCa"
+            android:label="@string/title_activity_sixth_ca" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SixthCn"
+            android:label="@string/title_activity_sixth_cn" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SixthVlsi"
+            android:label="@string/title_activity_sixth_vlsi" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SixthAwp"
+            android:label="@string/title_activity_sixth_awp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SixthPom"
+            android:label="@string/title_activity_sixth_pom" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SixthMe"
+            android:label="@string/title_activity_sixth_me" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SixthAdsp"
+            android:label="@string/title_activity_sixth_adsp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SixthOs"
+            android:label="@string/title_activity_sixth_os" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SixthRa"
+            android:label="@string/title_activity_sixth_ra" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpCa"
+            android:label="@string/title_activity_qp_ca" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpCn"
+            android:label="@string/title_activity_qp_cn" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpVlsi"
+            android:label="@string/title_activity_qp_vlsi" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpAwp"
+            android:label="@string/title_activity_qp_awp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpPom"
+            android:label="@string/title_activity_qp_pom" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpMe"
+            android:label="@string/title_activity_qp_me" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpAdsp"
+            android:label="@string/title_activity_qp_adsp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpOs"
+            android:label="@string/title_activity_qp_os" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpRa"
+            android:label="@string/title_activity_qp_ra" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevRf"
+            android:label="@string/title_activity_sev_rf" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevOcn"
+            android:label="@string/title_activity_sev_ocn" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevErt"
+            android:label="@string/title_activity_sev_ert" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevSc"
+            android:label="@string/title_activity_sev_sc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevEt"
+            android:label="@string/title_activity_sev_et" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevSoc"
+            android:label="@string/title_activity_sev_soc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevDip"
+            android:label="@string/title_activity_sev_dip" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevSp"
+            android:label="@string/title_activity_sev_sp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevWt"
+            android:label="@string/title_activity_sev_wt" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevAca"
+            android:label="@string/title_activity_sev_aca" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevEp"
+            android:label="@string/title_activity_sev_ep" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevEmic"
+            android:label="@string/title_activity_sev_emic" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevCmos"
+            android:label="@string/title_activity_sev_cmos" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevAmpmc"
+            android:label="@string/title_activity_sev_ampmc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevCr"
+            android:label="@string/title_activity_sev_cr" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevRn"
+            android:label="@string/title_activity_sev_rn" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.SevOed"
+            android:label="@string/title_activity_sev_oed" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpRf"
+            android:label="@string/title_activity_qp_rf" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpOcn"
+            android:label="@string/title_activity_qp_ocn" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpErt"
+            android:label="@string/title_activity_qp_ert" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpScn"
+            android:label="@string/title_activity_qp_scn" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEt"
+            android:label="@string/title_activity_qp_et" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSoc"
+            android:label="@string/title_activity_qp_soc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpDip"
+            android:label="@string/title_activity_qp_dip" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSp"
+            android:label="@string/title_activity_qp_sp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpWt"
+            android:label="@string/title_activity_qp_wt" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpAca"
+            android:label="@string/title_activity_qp_aca" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEp"
+            android:label="@string/title_activity_qp_ep" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEmic"
+            android:label="@string/title_activity_qp_emic" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpCmos"
+            android:label="@string/title_activity_qp_cmos" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpAmpmc"
+            android:label="@string/title_activity_qp_ampmc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpCr"
+            android:label="@string/title_activity_qp_cr" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpRn"
+            android:label="@string/title_activity_qp_rn" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpOed"
+            android:label="@string/title_activity_qp_oed" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightWc"
+            android:label="@string/title_activity_eight_wc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightWn"
+            android:label="@string/title_activity_eight_wn" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightRfd"
+            android:label="@string/title_activity_eight_rfd" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightAdh"
+            android:label="@string/title_activity_eight_adh" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightIc"
+            android:label="@string/title_activity_eight_ic" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightMc"
+            android:label="@string/title_activity_eight_mc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightPE"
+            android:label="@string/title_activity_eight_pe" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightDcv"
+            android:label="@string/title_activity_eight_dcv" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightCrp"
+            android:label="@string/title_activity_eight_crp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightTqm"
+            android:label="@string/title_activity_eight_tqm" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightEsp"
+            android:label="@string/title_activity_eight_esp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.EightSpm"
+            android:label="@string/title_activity_eight_spm" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpWc"
+            android:label="@string/title_activity_qp_wc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpWn"
+            android:label="@string/title_activity_qp_wn" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpRfd"
+            android:label="@string/title_activity_qp_rfd" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpAdh"
+            android:label="@string/title_activity_qp_adh" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpIc"
+            android:label="@string/title_activity_qp_ic" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpMc"
+            android:label="@string/title_activity_qp_mc" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpPe"
+            android:label="@string/title_activity_qp_pe" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpDcv"
+            android:label="@string/title_activity_qp_dcv" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpCrp"
+            android:label="@string/title_activity_qp_crp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpTqm"
+            android:label="@string/title_activity_qp_tqm" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpEsp"
+            android:label="@string/title_activity_qp_esp" >
+        </activity>
+        <activity
+            android:name="com.peoplesbench.endroidece.QpSpm"
+            android:label="@string/title_activity_qp_spm" >
+        </activity>
+    </application>
+
+</manifest>

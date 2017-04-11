@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_us">       \t Peoples Bench is a company which provides solution on Web Development, App Development and Online Marketing.\n
+      \n \t Another venture of a Game Redesigning startup Fifa Modders.
+       \n \n  \tWe also provide affordable Web Designing and App Designing packages to the customers making us
+       perfect package for Newbie StartUps.  </string>
+    <string name="des">        \n\n DESIGN TEAM
+        
+        \n\n\n  APP DEVELOPMENT 
+       \n Mohamed Abdur Rahman
+		
+	 \n\n\nCONTENT MANAGEMENT
+       \nNaveen Kumar R.B
+       \nKarthikeyan
+       
+       \n\n\n GRAPHIC DESIGN 
+      \nKarthick
+	  \nMohamed Mubeen</string>
+    <string name="app_name">Endroid ECE</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_semester">FIRST SEMESTER</string>
+    <string name="second_semester">SECOND SEMESTER</string>
+    <string name="third_semester">THIRD SEMESTER</string>
+    <string name="button">CALCULATE</string>
+    <string name="gparesult">RESULT</string>
+    <string name="gpais">Your GPA is</string>
+    <string name="gpaval">9.8</string>
+
+    <color name="blue">#2a4686</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0107</color>
+    <color name="htbg">#002030</color>
+    <color name="hbbg">#02ffcc</color>
+    <color name="ibg">#4db1e5</color>
+    <color name="jbg">#001212</color>
+    <color name="whiten">#f5f5f5</color>
+    <color name="grey">#2a2a2a</color>
+    <color name="black">#000000</color>
+    <color name="e8">#e8e8e8</color>
+    <color name="endroidbg">#4db1e3</color>
+
+    <!-- chem 1 -->
+    <string name="chem1name">CY 6151</string>
+    <string name="chem1code">ENGINEERING CHEMISTRY - 1</string>
+
+    <!-- computer programming -->
+    <string name="cpname">GE 6151</string>
+    <string name="cpcode">COMPUTER PROGRAMMING</string>
+
+    <!-- phy 1 -->
+    <string name="ph1name">PH 6151</string>
+    <string name="ph1code">ENGINEERING PHYSICS - 1</string>
+
+    <!-- eg -->
+    <string name="egname">GE 6152</string>
+    <string name="egcode">ENGINEERING GRAPHICS</string>
+
+    <!-- eng1 -->
+    <string name="eng1name">HS 6151</string>
+    <string name="eng1code">TECHNICAL ENGLISH - 1</string>
+
+    <!-- m1 -->
+    <string name="m1name">MA 6151</string>
+    <string name="m1code">MATHEMATICS - 1</string>
+
+    <!-- cplab -->
+    <string name="cplname">GE 6161</string>
+    <string name="cplcode">COMPUTER PRACTICES LAB</string>
+
+    <!-- eglab -->
+    <string name="eglname">GE 6162</string>
+    <string name="eglcode">ENGINEERING PRACTICES LAB</string>
+
+    <!-- pclab -->
+    <string name="pclname">GE 6163</string>
+    <string name="pclcode">PHYSICS AND CHEMISTRY LAB - 1</string>
+
+    <!-- chem 2 -->
+    <string name="chem2name">CY 6251</string>
+    <string name="chem2code">ENGINEERING CHEMISTRY - 2</string>
+
+    <!-- elec divices -->
+    <string name="edname">EC 6201</string>
+    <string name="edcode">ELECTRONIC DEVICES</string>
+
+    <!-- phy 2 -->
+    <string name="ph2name">PH 6251</string>
+    <string name="ph2code">ENGINEERING PHYSICS - 2</string>
+
+    <!-- ct -->
+    <string name="ctname">EE 6201</string>
+    <string name="ctcode">CIRCUIT THEORY</string>
+
+    <!-- eng2 -->
+    <string name="eng2name">HS 6251</string>
+    <string name="eng2code">TECHNICAL ENGLISH - 2</string>
+
+    <!-- m2 -->
+    <string name="m2name">MA 6251</string>
+    <string name="m2code">MATHEMATICS - 2</string>
+
+    <!-- cdl -->
+    <string name="cdlname">EC 6211</string>
+    <string name="cdlcode">CIRCUITS AND DEVICES LAB</string>
+
+    <!-- pclab 2 -->
+    <string name="pcl2name">GE 6163</string>
+    <string name="pcl2code">PHYSICS AND CHEMISTRY LAB - 2</string>
+
+    <!-- oops -->
+    <string name="odsname">EC 6301</string>
+    <string name="odscode">OOPS AND DS</string>
+
+    <!-- Digital Electronics -->
+    <string name="dename">EC 6302</string>
+    <string name="decode">DIGITAL ELECTRONICS</string>
+
+    <!-- Ss -->
+    <string name="ssname">EC 6303</string>
+    <string name="sscode">SIGNALS AND SYSTEMS</string>
+
+    <!-- ec1 -->
+    <string name="ec1name">EC 6304</string>
+    <string name="ec1code">ELECTRONIC CIRCUITS - 1</string>
+
+    <!-- ec1 -->
+    <string name="eeiname">EC 6305</string>
+    <string name="eeicode">ELECTRONIC ENGINEERING </string>
+
+    <!-- m3 -->
+    <string name="m3name">MA 6351</string>
+    <string name="m3code">MATHEMATICS - 3</string>
+
+    <!-- adcl -->
+    <string name="adclname">EC 6311</string>
+    <string name="adclcode">ANALOG-DIGITAL CIRCUITS LAB</string>
+
+    <!-- odl -->
+    <string name="odlname">EC 6312</string>
+    <string name="odlcode">OOPS AND DS LAB</string>
+
+    <!-- ec2 -->
+    <string name="ec2name">EC 6401</string>
+    <string name="ec2code">ELECTRONIC CIRCUITS - 2</string>
+
+    <!-- lic -->
+    <string name="licname">EC 6404</string>
+    <string name="liccode">LINEAR INTEGERATED CIRCUITS</string>
+
+    <!-- ct -->
+    <string name="cmtname">EC 6402</string>
+    <string name="cmtcode">COMMUNICATION THEORY</string>
+
+    <!-- cs -->
+    <string name="csname">EC 6405</string>
+    <string name="cscode">CONTROL SYSTEMS</string>
+
+    <!-- emf -->
+    <string name="emfname">EC 6403</string>
+    <string name="emfcode">ELECTROMAGNETIC FIELDS</string>
+
+    <!-- m4 -->
+    <string name="m4name">MA 6451</string>
+    <string name="m4code">MATHEMATICS - 4</string>
+
+    <!-- csl -->
+    <string name="cslname">EC 6411</string>
+    <string name="cslcode">CIRCUITS AND SIMULATION LAB</string>
+
+    <!-- lil -->
+    <string name="lilname">EC 6412</string>
+    <string name="lilcode">LINEAR INTEGERATION LAB</string>
+
+    <!-- ecsl -->
+    <string name="ecslname">EE 6461</string>
+    <string name="ecslcode">EE AND CS LABORATORY</string>
+
+    <!-- dc -->
+    <string name="dcname">EC 6501</string>
+    <string name="dccode">DIGITAL COMMUNICATION</string>
+
+    <!-- mpmc -->
+    <string name="mpmcname">EC 6504</string>
+    <string name="mpmccode">MICROPROCESSOR-CONTROLLER</string>
+
+    <!-- evs -->
+    <string name="evsname">GE 6351</string>
+    <string name="evscode">EVS ENGINEEERING</string>
+
+    <!-- dsp -->
+    <string name="dspname">EC 6502</string>
+    <string name="dspcode">DIGITAL SIGNAL PROCESSING</string>
+
+    <!-- tlw -->
+    <string name="tlwname">EC 6503</string>
+    <string name="tlwcode">TRANSMISSIONS-WAVEGUIDES</string>
+
+    <!-- dspl -->
+    <string name="dsplname">EC 6511</string>
+    <string name="dsplcode">DIGITAL SIGNALS LAB</string>
+
+    <!-- csl -->
+    <string name="cmslname">EC 6512</string>
+    <string name="cmslcode">COMMUNICATION SYSTEMS LAB</string>
+
+    <!-- mpmcl -->
+    <string name="mpmclname">EC 6513</string>
+    <string name="mpmclcode">MICROPROCESSORS LAB</string>
+
+    <!-- ca -->
+    <string name="caname">CS 6303</string>
+    <string name="cacode">COMPUTER ARCHITECTURE</string>
+
+    <!-- cn -->
+    <string name="cnname">CS 6551</string>
+    <string name="cncode">COMPUTER NETWORKS</string>
+
+    <!-- vlsi -->
+    <string name="vlsiname">EC 6601</string>
+    <string name="vlsicode">VLSI DESIGN</string>
+
+    <!-- ELECTIVE 1 -->
+    <string name="el61name">ELECTIVE 1</string>
+    <string name="el61code">CLICK TO CHOOSE</string>
+
+    <!-- awp -->
+    <string name="awpname">EC 6602</string>
+    <string name="awpcode">ANTENNA AND WAVE</string>
+
+    <!-- pom -->
+    <string name="pomname">MG 6851</string>
+    <string name="pomcode">PRINCIPLES OF MANAGEMENT</string>
+
+    <!-- cnl -->
+    <string name="cnlname">EC 6611</string>
+    <string name="cnlcode">COMPUTER NETWORKS LAB</string>
+
+    <!-- vlsil -->
+    <string name="vlsilname">EC 6612</string>
+    <string name="vlsilcode">VLSI DESIGN LAB</string>
+
+    <!-- engl -->
+    <string name="englname">GE 6674</string>
+    <string name="englcode">COMMUNICATION SKILLS LAB</string>
+
+    <!-- rf -->
+    <string name="rfname">EC 6701</string>
+    <string name="rfcode">RF AND MICROWAVE ENGINEER.</string>
+
+    <!-- ocn -->
+    <string name="ocnname">EC 6702</string>
+    <string name="ocncode">OPTICAL COMMUNICATION</string>
+
+    <!-- emd -->
+    <string name="emname">EC 6703</string>
+    <string name="emcode">EMBEDDED AND REAL TIME</string>
+
+    <!-- ELECTIVE 1 -->
+    <string name="el71name">ELECTIVE 2</string>
+    <string name="el71code">CLICK TO CHOOSE</string>
+
+    <!-- ELECTIVE 2 -->
+    <string name="el72name">ELECTIVE 3</string>
+    <string name="el72code">CLICK TO CHOOSE</string>
+
+    <!-- ELECTIVE 3 -->
+    <string name="el73name">ELECTIVE 4</string>
+    <string name="el73code">CLICK TO CHOOSE</string>
+
+    <!-- eml -->
+    <string name="emlname">EC 6711</string>
+    <string name="emlcode">EMBEDDED LABARATORY</string>
+
+    <!-- oml -->
+    <string name="omlname">EC 6712</string>
+    <string name="omlcode">OPTICAL AND MICROWAVE LAB</string>
+
+    <!-- wc -->
+    <string name="wcname">EC 6801</string>
+    <string name="wccode">WIRELESS COMMUNICATION</string>
+
+    <!-- wn -->
+    <string name="wnname">EC 6802</string>
+    <string name="wncode">WIRELESS NETWORKS</string>
+
+    <!-- ELECTIVE 5 -->
+    <string name="el81name">ELECTIVE 5</string>
+    <string name="el81code">CLICK TO CHOOSE</string>
+
+    <!-- ELECTIVE 6 -->
+    <string name="el82name">ELECTIVE 6</string>
+    <string name="el82code">CLICK TO CHOOSE</string>
+
+    <!-- project -->
+    <string name="pname">EC 6811</string>
+    <string name="pcode">PROJECT WORK</string>
+
+    <!-- subjects end -->
+
+    <string name="gpa">GPA</string>
+    <string name="title_activity_splash1"></string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_main"></string>
+    <string name="title_activity_splash2"></string>
+    <string name="title_activity_results">GPA</string>
+    <string name="title_activity_first_semester">FIRST SEMESTER</string>
+    <string name="title_activity_second_semester">SECOND SEMESTER</string>
+    <string name="title_activity_third_semester">THIRD SEMESTER</string>
+    <string name="title_activity_index">Endroid ECE</string>
+    <string name="handbook_ece">ENDROID ECE</string>
+    <string name="title_activity_cgpa">CGPA</string>
+    <string name="semesters">SEMESTERS</string>
+    <string name="title_activity_fourth_semester">FOURTH SEMESTER</string>
+    <string name="fourth_semester">FOURTH SEMESTER</string>
+    <string name="title_activity_fifth_semester">FIFTH SEMESTER</string>
+    <string name="fifth_semester">FIFTH SEMESTER</string>
+    <string name="title_activity_sixth_semester">SIXTH SEMESTER</string>
+    <string name="sixth_semester">SIXTH SEMESTER</string>
+    <string name="title_activity_seventh_semester">SEVENTH SEMESTER</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="seventh_semester">SEVENTH SEMESTER</string>
+    <string name="title_activity_eight_semester">EightSemester</string>
+    <string name="_color_white">\@color/white</string>
+    <string name="eight_semester">EIGHT SEMESTER</string>
+    <string name="index">INDEX</string>
+
+    <!-- menu -->
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="clearall">Clear All</string>
+    <string name="your_cgpa_is">Your CGPA is</string>
+    <string name="title_activity_cgparesults">CGPA</string>
+    <string name="title_activity_syllabus">Syllabus</string>
+    <string name="title_activity_aboutus">About us</string>
+    <string name="title_activity_fisrt_chemistry">Chemistry I</string>
+    <string name="title_activity_notes_semesters">Notes</string>
+    <string name="title_activity_notes_subjects">Subjects</string>
+    <string name="title_activity_first_maths">Maths I</string>
+    <string name="title_activity_first_eg">Engg.Graphics</string>
+    <string name="title_activity_first_physics">Physics I</string>
+    <string name="title_activity_first_cp">Comp.Programming I</string>
+    <string name="title_activity_first_eng">English I</string>
+    <string name="title_activity_qp_semesters">Question Papers</string>
+    <string name="title_activity_qp_subjects1">Subjects</string>
+    <string name="title_activity_qp_chem1">Chemistry 1 QP</string>
+    <string name="title_activity_qp_m1">Engg.Maths 1 QP</string>
+    <string name="title_activity_qp_phy1">Physics 1 QP</string>
+    <string name="title_activity_qp_eng1">English 1 QP</string>
+    <string name="title_activity_qp_cp">Comp.Programming QP</string>
+    <string name="title_activity_qp_eg">Engg.Graphics QP</string>
+    <string name="title_activity_notes_subjects2">Subjects</string>
+    <string name="title_activity_sec_chemistry">Chemistry II</string>
+    <string name="title_activity_sec_maths2">Maths II</string>
+    <string name="title_activity_sec_physics">Physics II</string>
+    <string name="title_activity_sec_ct">Circuit Theory</string>
+    <string name="title_activity_sec_eng">English II</string>
+    <string name="title_activity_sec_ed">Electronic Devices</string>
+    <string name="title_activity_notes_subjects3">Subjects</string>
+    <string name="title_activity_third_ec1">Electronic circuits I</string>
+    <string name="title_activity_third_tpde">Maths 3</string>
+    <string name="title_activity_third_de">Digital Electronics</string>
+    <string name="title_activity_third_ss">Signal and Systems</string>
+    <string name="title_activity_third_eei">Electrical and Elec Instr.</string>
+    <string name="title_activity_third_oops">OOPS</string>
+    <string name="title_activity_notes_subjects4">Subjects</string>
+    <string name="title_activity_four_ec2">Electronic Circuits II</string>
+    <string name="title_activity_four_ct">Communication Theory</string>
+    <string name="title_activity_four_cs">Control Systems</string>
+    <string name="title_activity_four_emf">Electromagnetic Fields</string>
+    <string name="title_activity_four_lic">Linear Integerated Circuits</string>
+    <string name="title_activity_four_prp">Propability and Random Process</string>
+    <string name="title_activity_qp_subjects2">Subjects</string>
+    <string name="title_activity_qp_chem2">Chemistry II QP</string>
+    <string name="title_activity_qp_m2">Engg.Maths II QP</string>
+    <string name="title_activity_qp_phy2">Physics II QP</string>
+    <string name="title_activity_qp_ct">Circuit Theory QP</string>
+    <string name="title_activity_qp_eng2">English 2 QP</string>
+    <string name="title_activity_qp_ed">Electronic Devices QP</string>
+    <string name="title_activity_qp_subjects3">Subjects</string>
+    <string name="title_activity_qp_ec1">Electronic Circuits 1 QP</string>
+    <string name="title_activity_qp_tpde">Maths 3 QP</string>
+    <string name="title_activity_qp_de">Digital Electronics QP</string>
+    <string name="title_activity_qp_ss">Signals and Systems QP</string>
+    <string name="title_activity_qp_eei">Electrical Engg. Instrumentation QP</string>
+    <string name="title_activity_qp_oops">Oops and Data Structure QP</string>
+    <string name="title_activity_qp_subjects4">Subjects</string>
+    <string name="title_activity_qp_ec2">Electronic Circuits 2 QP</string>
+    <string name="title_activity_qp_comt">Communication Theory QP</string>
+    <string name="title_activity_qp_cs">Control System QP</string>
+    <string name="title_activity_qp_emf">Electromagnetic Fields QP</string>
+    <string name="title_activity_qp_lic">Linear Integerated Circuits QP</string>
+    <string name="title_activity_qp_prp">Maths 3 QP</string>
+    <string name="title_activity_fifth_dc">Digital Communication</string>
+    <string name="title_activity_notes_subjects5">Subjects</string>
+    <string name="title_activity_fifth_mpmc">Microprocessor-Controller</string>
+    <string name="title_activity_fifth_evs">Environmental Science</string>
+    <string name="title_activity_fifth_tlw">Transmission Lines-Waveguides</string>
+    <string name="title_activity_fifth_dsp">Digital Signal Processing</string>
+    <string name="title_activity_qp_subjects5">Subjects</string>
+    <string name="title_activity_qp_dc">Digital Communication QP</string>
+    <string name="title_activity_qp_mpmc">MicroProcessor-Controller QP</string>
+    <string name="title_activity_qp_evs">Environmental Science QP</string>
+    <string name="title_activity_qp_dsp">Digital Signal Processing QP</string>
+    <string name="title_activity_qp_tlw">Transmission Lines-Waveguides QP</string>
+    <string name="title_activity_notes_subjects6">Subjects</string>
+    <string name="title_activity_qp_subjects6">Subjects</string>
+    <string name="title_activity_notes_subjects7">Subjects</string>
+    <string name="title_activity_qp_subjects7">Subjects</string>
+    <string name="title_activity_notes_subjects8">Subjects</string>
+    <string name="title_activity_qp_subjects8">Subjects</string>
+    <string name="title_activity_sixth_ca">Computer Architecture</string>
+    <string name="title_activity_sixth_cn">Computer Networks</string>
+    <string name="title_activity_sixth_vlsi">VLSI Design</string>
+    <string name="title_activity_sixth_awp">Antenna Wave Propagation</string>
+    <string name="title_activity_sixth_pom">Principles of Management</string>
+    <string name="title_activity_sixth_me">Medical Electronics</string>
+    <string name="title_activity_sixth_adsp">Adv. Digital Signal Processing</string>
+    <string name="title_activity_sixth_os">Operating Systems</string>
+    <string name="title_activity_sixth_ra">Robotics and Automation</string>
+    <string name="title_activity_qp_ca">Computer Architecture Qp</string>
+    <string name="title_activity_qp_cn">Computer Networks Qp</string>
+    <string name="title_activity_qp_vlsi">VLSI Design Qp</string>
+    <string name="title_activity_qp_awp">Antenna Wave Propagation Qp</string>
+    <string name="title_activity_qp_pom">Principles of Management Qp</string>
+    <string name="title_activity_qp_me">Medical Electronics Qp</string>
+    <string name="title_activity_qp_adsp">Adv. Digital Signal Processing Qp</string>
+    <string name="title_activity_qp_os">Operating Systems Qp</string>
+    <string name="title_activity_qp_ra">Robotics and Automation Qp</string>
+    <string name="title_activity_sev_rf">RF and Microwave</string>
+    <string name="title_activity_sev_ocn">Optical Communication</string>
+    <string name="title_activity_sev_ert">Embedded and Real Time</string>
+    <string name="title_activity_sev_sc">Satellite Communication</string>
+    <string name="title_activity_sev_et">Electronics Testing</string>
+    <string name="title_activity_sev_soc">Soft Computing</string>
+    <string name="title_activity_sev_dip">Digital Image Processing</string>
+    <string name="title_activity_sev_sp">Speech Processing</string>
+    <string name="title_activity_sev_wt">Web Technology</string>
+    <string name="title_activity_sev_aca">Adv. Computer Architecture</string>
+    <string name="title_activity_sev_ep">Electronic Packing</string>
+    <string name="title_activity_sev_emic">Electromagnetic Interference</string>
+    <string name="title_activity_sev_cmos">CMOS Analog IC Design</string>
+    <string name="title_activity_sev_ampmc">Advanced MPMC</string>
+    <string name="title_activity_sev_cr">Cognitive Radio</string>
+    <string name="title_activity_sev_rn">Radio and Navigation Aids</string>
+    <string name="title_activity_sev_oed">Optical Electronic Devices</string>
+    <string name="title_activity_qp_rf">RF and Microwave Qp</string>
+    <string name="title_activity_qp_ocn">Optical Communication Qp</string>
+    <string name="title_activity_qp_ert">Embedded and Real Time Qp</string>
+    <string name="title_activity_qp_scn">Satellite Communication Qp</string>
+    <string name="title_activity_qp_et">Electronics Testing Qp</string>
+    <string name="title_activity_qp_soc">Soft Computing Qp</string>
+    <string name="title_activity_qp_dip">Digital Image Processing Qp</string>
+    <string name="title_activity_qp_sp">Speech Processing Qp</string>
+    <string name="title_activity_qp_wt">Web Technology Qp</string>
+    <string name="title_activity_qp_aca">Adv. Computer Architecture Qp</string>
+    <string name="title_activity_qp_ep">Electronic Packing Qp</string>
+    <string name="title_activity_qp_emic">Electromagnetic Interference Qp</string>
+    <string name="title_activity_qp_cmos">CMOS Analog IC Design Qp</string>
+    <string name="title_activity_qp_ampmc">Advanced MPMC Qp</string>
+    <string name="title_activity_qp_cr">Cognitive Radio Qp</string>
+    <string name="title_activity_qp_rn">Radio and Navigation Aids Qp</string>
+    <string name="title_activity_qp_oed">Optical Electronic Devices QP</string>
+    <string name="title_activity_eight_wc">Wireless Communication</string>
+    <string name="title_activity_eight_wn">Wireless Networks</string>
+    <string name="title_activity_eight_rfd">RF and Design</string>
+    <string name="title_activity_eight_adh">Adhoc and Sensor Networks</string>
+    <string name="title_activity_eight_ic">Indian Constitution</string>
+    <string name="title_activity_eight_mc">Multimedia Compression</string>
+    <string name="title_activity_eight_pe">Professionla Ethics</string>
+    <string name="title_activity_eight_dcv">Data Converters</string>
+    <string name="title_activity_eight_crp">Cryptography and Network Security</string>
+    <string name="title_activity_eight_tqm">Total Quality Management</string>
+    <string name="title_activity_eight_esp">Entrepreneurship</string>
+    <string name="title_activity_eight_spm">Software Project Management</string>
+    <string name="title_activity_qp_wc">Wireless Communication Qp</string>
+    <string name="title_activity_qp_wn">Wireless Networks QP</string>
+    <string name="title_activity_qp_rfd">RF and Design Qp</string>
+    <string name="title_activity_qp_adh">Adhoc and Sensor Networks Qp</string>
+    <string name="title_activity_qp_ic">Indian Constitution Qp</string>
+    <string name="title_activity_qp_mc">Multimedia Compression Qp</string>
+    <string name="title_activity_qp_pe">Professionla Ethics Qp</string>
+    <string name="title_activity_qp_dcv">Data Converters Qp</string>
+    <string name="title_activity_qp_crp">Cryptography and Network Security Qp</string>
+    <string name="title_activity_qp_tqm">Total Quality Management Qp</string>
+    <string name="title_activity_qp_esp">Entrepreneurship Qp</string>
+    <string name="title_activity_qp_spm">Software Project Management Qp</string>
+
+    
+    <string name="qptitle">QUESTION PAPERS AND BANKS</string>
+    <string name="gpatitle">GRADE POINT AVERAGE</string>
+    <string name="notestitle">NOTES</string>
+    
+    <string name="exittwice">Press back again to exit</string>
+    
+    <string name="rate_title">Like this app?</string>
+    <string name="rate_message">Please rate us in Google Play</string>
+    <string name="rate_positive">Rate Now</string>
+    <string name="rate_remind_later">Not Now</string>
+    <string name="rate_never">Never</string>
+     
+</resources>
